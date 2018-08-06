@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Shojumaru');
+@import url('https://fonts.googleapis.com/css?family=Passero+One');
+
+body{
+	
+  	/*font-family: Arial, sans-serif;
+	font-size: 12pt;
+	line-height: 1.2;*/
+	background: url("images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	color: #211400;	/*	R G B	*/
+	
+}
+
+a{
+	text-decoration: none !important;
+	color: black !important;
+	font-weight: bold;
+}
+
+/* Logo */
+header a{
+	display: inline-block;
+}
+
+
+/* Title */
+header .title{
+	color: red;
+	font-family: 'Shojumaru', cursive;
+	text-shadow: -0.05em 0.05em #000000;
+}
+
+/* Navigation bar */
+
+nav{
+	font-family: 'Passero One', cursive;
+	font-size: 1.9em;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0em;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	margin: 0em;
+	padding: 0em 1.2em;
+}
+
+nav .drop_zoznam{
+	font-size: 0.7em;
+	min-width: 6em;
+    display: none;
+    position: absolute !important;
+    z-index: 1;
+}
+
+nav .drop_zoznam a{
+	padding: 0.2em;
+	background-color: #f4ece1;
+	display: block;
+	text-align: left;
+}
+
+nav .drop_zoznam a:hover{
+	background-image: none;
+	background-color: #ffe6b3;
+}
+
+nav ul li a:hover {
+    background-image: url("images/splash.png");
+    color: black !important;
+    background-size: 1.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav .drop:hover .drop_zoznam { 
+	display: block;
+}
+
+/*  */
+
+.left{
+	background-image: url("images/table.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: 1.2em;
+	padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-right: 0.2em !important;
+    padding-left: 1.2em !important;
+}
+
+.right{
+	background-image: url("images/table.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-right: 0.2em !important;
+    padding-left: 1.5em !important;
+}
+
+.card{
+	margin-bottom: 1em;
+	min-width: 19em !important;
+	min-height: 22em !important;
+	max-height: 22em !important;
+	margin-right: 4px;
+	/*width: fit-content;	toto by malo fungovať ale nechce*/
+}
+
+.card-body{
+	padding: 0.2em !important;
+	max-height: 5em;
+	text-align: left !important;
+}
+
+.card-body h4{
+	padding-bottom: 0em !important;
+	font-size: 1.2em;
+}
+
+.card-title{
+	margin-bottom: 0em !important;
+}
+
+.card-text{
+	margin: 0em !important;
+	padding: 0em !important;
+	font-size: 0.8em !important;
+}
+
+.star{
+	float: right;
+}
+
+.card img{
+	max-width: 19em;
+	min-height: 14em;
+	max-height: 15em;
+	width: auto !important;
+}
+
+input{
+	max-width: -webkit-fill-available;
+}
+
+.error{
+	color: red;
+}

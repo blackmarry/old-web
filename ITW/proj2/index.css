@@ -1,0 +1,170 @@
+body{
+	padding: 0;
+  	margin: 0;
+  	font-family: Arial, sans-serif;
+	font-size: 12pt;
+	line-height: 1.2;
+	background: linear-gradient(to bottom, #001133 10%, #000088 100%);
+	margin: auto;
+	color: #ccffff;
+	max-width: 100em;
+	min-width: 850px;
+	margin: auto;
+}
+
+/* Menu */
+.menu{
+	min-width: 850px;
+}
+
+nav{
+	position: fixed;
+	width: 100%;
+	display: inline-block;
+	margin: 20px auto;
+}
+nav ul{
+	list-style: none;
+	margin: 10px 0px;
+	padding: 0;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	margin: 5px;
+	padding: 10px 50px;
+	border: 3px solid #66FFFF;
+	border-radius: 10px;
+	background-color: #000066;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+nav .drop_zoznam{
+	margin-top: 12px;
+	min-width: 200px;
+	position: absolute;
+	display: none;
+}
+nav .drop_zoznam a{
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+nav ul li a:hover {
+    background-color: #000038;
+    text-decoration: none;
+}
+nav .drop:hover .drop_zoznam { 
+	display: block;
+}
+
+/* Hlavicka */
+
+/* Logo */
+header a{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	float: left;
+	margin-top: 120px;
+	margin-left: 150px;
+	background-image: url("images/logo.png");
+	background-repeat: no-repeat;
+}
+
+/* Nadpis */
+header{
+	background-image: url("images/head.jpg");
+}
+header h1{
+	font-size: 50px;
+	text-shadow: 1px 1px #66FFFF;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	margin: auto;
+	line-height: 350px;
+	min-width: 450px;
+	padding: 0px 50px;
+	text-align: center;
+	color: white;
+}
+
+/* Kraj */
+aside{
+	float: left;
+}
+#actual{
+	display: block;
+	width: 200px;
+}
+#actual .info{
+	display: block;
+}
+
+#actual .hidden{
+	display: block;
+}
+
+
+/* Obsah */
+#content{
+	margin: 0 auto;
+}
+
+section{
+	margin-left: 200px;
+
+}
+section h2{
+	margin: 20px 100px;
+}
+section h3{
+	margin: 20px 100px;
+}
+section p{
+	margin: 10px 100px;
+	padding: 50px;
+	max-width: 800px;
+	min-width: 450px;
+	border: 2px solid;
+}
+
+table{
+	margin-left: 200px;
+	padding: 50px;
+	max-width: 800px;
+	min-width: 450px;
+	border: 2px solid;
+
+}
+
+section img {
+	max-height: 500px;
+	max-width: 800px;
+	padding: 10px;
+	text-align: center;
+
+}
+
+section ul{
+	margin: 30px 200px 500px 80px;
+	list-style: none;
+	padding: 5px;
+	border: 1px solid #66FFFF;
+}
+section ul li{
+	margin: 10px;
+}
+
+/* Pata stranky */
+footer{
+	clear: left;
+	background-color: #000038;
+	padding: 20px 50px;
+
+}

@@ -1,0 +1,358 @@
+body{
+	font-family: Arial;
+	color: #585858;
+	font-size: 11pt;
+	text-align: center;
+	max-width: 100em;
+	margin: auto;
+}
+
+#page {
+	margin: auto;
+}
+/*---------------- hide ----------------*/
+.hidden {
+	display: none;
+	float: left;
+}
+.hr{
+	display: none;
+}
+/*---------------- a-bez podciarknutia ----------------*/
+a {
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+/*---------------- logo ----------------*/
+#hh1 {
+	float: left;
+	padding-top: 0px;
+	margin: 0;
+	margin-top: 11px;
+	margin-left: 40px;
+	display: inline-block;
+	color: transparent;
+	font-size: 30px;
+	width: 151px;
+	background-image: url("./images/logo.png");
+	background-repeat: no-repeat;
+	height: 100px;
+}
+#hh1 .a, #hh1 a:link, #hh1 a:visited, #hh1 a:hover, #hh1 a:active{
+	color: transparent;
+}
+
+/*---------------- nadpisy h2 ----------------*/
+h2 {
+	text-align: center;
+	font-family: 'Times New Roman', serif;
+	font-style: italic;
+	font-size: 350%;
+	font-weight: normal;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*---------------- velke pozadie ----------------*/
+header {
+	background-position: center top;
+	position: absolute;
+	height: 50em;
+	max-width: 100em;
+	background-image: url("images/topfoto.jpg");
+	background-attachment:fixed;
+}
+
+header .bg{
+	height: 1em;
+	width: 100%;
+}
+
+/*---------------- sede pozadie ----------------*/
+#head{
+	width: 100%;
+}
+#head > .content{
+	position: relative;
+	z-index: 10;
+	width: 100%;
+}
+#menu {
+	background-color: rgba(50, 50, 50, 0.4);
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 7em;
+	width: 97%;
+}
+#menu .inside {
+	display: inline-block;
+	float: right;
+	height: 7em;
+
+}
+
+/*---------------- menu bar ----------------*/
+#menu .main {
+	color: white;
+	list-style-type: none;
+	float: left;
+	display: inline-block;
+	font-size: 1.25em;
+	width: 380px;
+	padding: 0;
+	padding-top: 40px;
+	margin: 0;
+}
+
+/*---------------- menu prvky ----------------*/
+#menu .main li{
+	float: left;
+	padding-right: 20px;
+	padding-left: 10px;
+	display: inline-block;
+}
+
+#menu .main li a{
+	color: white;
+	display: inline-block;
+}
+
+/*---------------- Cz ----------------*/
+#lang #curlang {
+	color: #585858;
+	font-weight: bold;
+	cursor: pointer;
+	padding-right: 20px;
+	background-position: right;
+	background-image: url("images/select.png");
+	background-repeat: no-repeat;
+}
+
+#lang{
+	float: right;
+	display: inline-block;
+	padding: 0;
+	padding-top: 40px;
+	margin-right: 25px; 
+}
+
+#lang .lang{
+	display: none;
+}
+#lang .lang a{
+	display: block;
+	padding: 11px 16px;
+}
+
+#lang:hover .lang{
+	display: block;
+	text-decoration: none;
+	background-color: lightgray;
+}
+
+#lang:hover .lang a{
+	color: #585858;
+	text-decoration: none;
+	font-weight: bold;
+}
+/*---------------- nadpis na pozadi ----------------*/
+.descript {
+	text-align: center;
+	font-family: serif;
+	font-style: italic;
+	color: white;
+	font-size: 500%;
+	position: relative;
+	padding-top: 300px;
+	padding-bottom: 300px;
+
+}
+.descript a, .descript a:hover, .descript a:link, .descript a:visited{
+	color: white;
+	text-decoration: none;
+}
+strong {
+	color: orange;
+	font-weight: normal;
+}
+
+/*---------------- stlpce ----------------*/
+.cols{
+
+
+}
+
+.col {
+	max-width: 420px;
+	float: left; 
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.full {
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	clear: both;
+}
+.full p{
+	
+	max-width: 50%;
+  	margin: 0 auto;
+ 	text-align: center;
+
+	
+}
+
+#intro{
+	clear: both;
+	text-align: center;
+}
+
+/*---------------- Citat viac ----------------*/
+.more{
+	float: right;
+	margin-top: -40px;
+	margin-right: 20px;
+	padding-right: 25px;
+	background-position: right;
+	background-image: url("images/plus.png");
+	background-repeat: no-repeat;
+}
+.more a{
+	color: black;
+}
+
+/*---------------- Fotografie ----------------*/
+#topgal>.r{
+	position: relative;
+	width: 428px;
+	height: 296px;
+	display: inline-block;
+}
+#topgal>.r *{
+	padding: 0;
+	margin: 0;
+}
+#topgal>.r img{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#topgal>.r span{
+	font-family: serif;
+	font-size: 20px;
+	color: #585858;
+	display: none;
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: lightgray;
+}
+
+#topgal>.r span em{
+	padding-top: 100px;
+	padding-bottom: 11px;
+	display: block;
+	font-size: 40px;
+}
+
+#topgal>.r:hover img{
+	display: none;
+}
+#topgal>.r:hover span{
+	display: inline-block;
+}
+
+/*---------------- Priroda ----------------*/
+#nature{
+	background-color: rgba(1,1,1,0.05);
+	display: grid;
+	margin-bottom: -50px;
+	margin-top:50px;
+	padding-bottom: 50px;
+}
+#nature h2{
+	margin-top: 0px;
+}
+
+/*---------------- Kontakty ----------------*/
+
+#contact {
+	background-color: #585858;
+	clear: both;
+}
+#contact h2{
+	padding-top: 50px;
+	color: white;
+}
+
+#contact .full{
+	color: white;
+	padding: 20px 20px;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+#contact .full h3{
+	text-align: left;
+	margin-bottom: 300px;
+}
+
+#contact .full p{
+	text-align: left;
+	padding: 20px;
+	margin: 0 auto;
+	font-weight: normal;
+}
+
+#contact .full p a{
+	color: white;
+}
+
+#contact .full:last-of-type{
+	height: 90px;
+}
+
+/*---------------- Foot ----------------*/
+#foot{
+	height: 55px;
+	width: 100%;
+}
+#foot *{
+	display: inline-block;
+}
+.copy{
+	float: left;
+}
+.contact{
+	float: right;
+}
+.contact a{
+	color: #585858;
+}
+#foot .content,#foot .inside{
+	margin: 10px 0;
+	padding: 0;
+	width: 100%;
+}
+.up{
+	background: url("images/up.png");
+	background-repeat: no-repeat;
+	color: transparent;
+	position: relative;
+	top: -35px;
+	background-size: contain;
+	font-size: 1.5em;
+}
+
+
